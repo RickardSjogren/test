@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# The dataset
 
-You can use the [editor on GitHub](https://github.com/RickardSjogren/test.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This page describes how to download and use the dataset associated with the publication (link).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Description of the dataset goes here.
 
-### Markdown
+## How to download
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The dataset is available in the cloud. On your command-line run:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+run download
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## File structure
 
-### Jekyll Themes
+The files in the dataset is arranged in the following structure
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RickardSjogren/test.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+the-dataset/
+    ├── data/
+    ├── README
+    └── LICENSE
+```
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## LICENSE
+
+This dataset is published under Attribution-NonCommercial 4.0 International 
+([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) license.
+
+## How to cite
+
+If you want to use the dataset in your publication, please cite the following:
+
+_Authors, Title, Journal, Year_
+
+
+```
+@article{bibtexttag,
+  title={This is a title},
+  author={First Author and others},
+  journal={Scientific journal},
+  year={year}
+}
+```
+
+Copyright (c) 2021, The Company
+
+
